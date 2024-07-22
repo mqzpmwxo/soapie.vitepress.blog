@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 👉  Blog  👈
-      link: /aboutme
+      link: https://blog.hlhs.work
 
 features:
   - title: E-mail
