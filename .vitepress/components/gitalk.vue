@@ -16,7 +16,7 @@ export default {
     const commentConfig = {
       clientID: "Ov23liYFM1M9KtsKdD1e",
       clientSecret: "57bb93e0be5450c16207159850a0768295016d86",
-      repo: "R_kgDOMZcsgQ.github.io",
+      repo: "R_kgDOMZcsgQ",
       owner: "mqzpmwxo",
       admin: ["mqzpmwxo"],
       id: md5(location.pathname),
