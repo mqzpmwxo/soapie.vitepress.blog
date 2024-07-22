@@ -7,6 +7,6 @@ export default {
   ...DefaultTheme,
   enhanceApp(ctx) {
     DefaultTheme.enhanceApp(ctx)
-    //ctx.app.component("gitalk", comment)
+    ctx.app.component("gitalk", comment)
   },
 };
