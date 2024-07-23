@@ -11,6 +11,7 @@
     "node": "18.17.1"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.12",
     "gitalk": "^1.8.0",
     "md5": "^2.3.0"
   }
