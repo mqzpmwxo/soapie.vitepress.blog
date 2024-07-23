@@ -1,2 +1,2 @@
-# soapie.vitepress.log
+# soapie.vitepress.blog
 Personal-Blog
