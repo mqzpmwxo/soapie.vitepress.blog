@@ -7,5 +7,5 @@
 <br/>
 <br/>
 <br/>
-<img src="/aniya.jpg" width="500px"/>
+<img src="/blog/assets/aniya.jpg" width="500px"/>
 <gitalk/>
