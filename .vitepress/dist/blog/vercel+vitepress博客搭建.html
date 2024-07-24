@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Soap</title>
+    <meta name="description" content="Soap's blog">
+    <meta name="generator" content="VitePress v1.3.1">
+    <link rel="preload stylesheet" href="/assets/style.8mqL6U87.css" as="style">
+    
+    <script type="module" src="/assets/app.BJ6srtje.js"></script>
+    <link rel="preload" href="/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="modulepreload" href="/assets/chunks/framework.Dx5AVRXu.js">
+    <link rel="modulepreload" href="/assets/chunks/theme.MMvxmYVZ.js">
+    <link rel="modulepreload" href="/assets/blog_vercel_vitepress博客搭建.md.D55O92hh.lean.js">
+    <link rel="icon" href="/logo.ico">
+    <script>var _hmt=_hmt||[];(function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?b6d40898f39099fd8bacd853f395cf6a";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();</script>
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+  </head>
+  <body>
+    <div id="app"><div class="Layout" data-v-d8b57b2d><!--[--><!--]--><!--[--><span tabindex="-1" data-v-c8291ffa></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-c8291ffa> Skip to content </a><!--]--><!----><header class="VPNav" data-v-d8b57b2d data-v-7ad780c2><div class="VPNavBar has-sidebar top" data-v-7ad780c2 data-v-9fd4d1dd><div class="wrapper" data-v-9fd4d1dd><div class="container" data-v-9fd4d1dd><div class="title" data-v-9fd4d1dd><div class="VPNavBarTitle has-sidebar" data-v-9fd4d1dd data-v-0ad69264><a class="title" href="/" data-v-0ad69264><!--[--><!--]--><!--[--><img class="VPImage logo" src="/logo.png" alt data-v-ab19afbb><!--]--><span data-v-0ad69264>Soap</span><!--[--><!--]--></a></div></div><div class="content" data-v-9fd4d1dd><div class="content-body" data-v-9fd4d1dd><!--[--><!--]--><div class="VPNavBarSearch search" data-v-9fd4d1dd><!--[--><!----><div id="local-search"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search"><span class="DocSearch-Button-Container"><span class="vp-icon DocSearch-Search-Icon"></span><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"><kbd class="DocSearch-Button-Key"></kbd><kbd class="DocSearch-Button-Key">K</kbd></span></button></div><!--]--></div><nav aria-labelledby="main-nav-aria-label" class="VPNavBarMenu menu" data-v-9fd4d1dd data-v-afb2845e><span id="main-nav-aria-label" class="visually-hidden" data-v-afb2845e> Main Navigation </span><!--[--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/" tabindex="0" data-v-afb2845e data-v-08fbf4b6><!--[--><span data-v-08fbf4b6>Home</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/aboutme.html" tabindex="0" data-v-afb2845e data-v-08fbf4b6><!--[--><span data-v-08fbf4b6>Blog</span><!--]--></a><!--]--><!--]--></nav><!----><div class="VPNavBarAppearance appearance" data-v-9fd4d1dd data-v-3f90c1a5><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-3f90c1a5 data-v-be9742d9 data-v-b4ccac88><span class="check" data-v-b4ccac88><span class="icon" data-v-b4ccac88><!--[--><span class="vpi-sun sun" data-v-be9742d9></span><span class="vpi-moon moon" data-v-be9742d9></span><!--]--></span></span></button></div><div class="VPSocialLinks VPNavBarSocialLinks social-links" data-v-9fd4d1dd data-v-ef6192dc data-v-e71e869c><!--[--><a class="VPSocialLink no-icon" href="https://github.com/mqzpmwxo" aria-label="github" target="_blank" rel="noopener" data-v-e71e869c data-v-358b6670><span class="vpi-social-github" /></a><!--]--></div><div class="VPFlyout VPNavBarExtra extra" data-v-9fd4d1dd data-v-f953d92f data-v-af5898d3><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="extra navigation" data-v-af5898d3><span class="vpi-more-horizontal icon" data-v-af5898d3></span></button><div class="menu" data-v-af5898d3><div class="VPMenu" data-v-af5898d3 data-v-20ed86d6><!----><!--[--><!--[--><!----><div class="group" data-v-f953d92f><div class="item appearance" data-v-f953d92f><p class="label" data-v-f953d92f>Appearance</p><div class="appearance-action" data-v-f953d92f><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-f953d92f data-v-be9742d9 data-v-b4ccac88><span class="check" data-v-b4ccac88><span class="icon" data-v-b4ccac88><!--[--><span class="vpi-sun sun" data-v-be9742d9></span><span class="vpi-moon moon" data-v-be9742d9></span><!--]--></span></span></button></div></div></div><div class="group" data-v-f953d92f><div class="item social-links" data-v-f953d92f><div class="VPSocialLinks social-links-list" data-v-f953d92f data-v-e71e869c><!--[--><a class="VPSocialLink no-icon" href="https://github.com/mqzpmwxo" aria-label="github" target="_blank" rel="noopener" data-v-e71e869c data-v-358b6670><span class="vpi-social-github" /></a><!--]--></div></div></div><!--]--><!--]--></div></div></div><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="VPNavScreen" data-v-9fd4d1dd data-v-6bee1efd><span class="container" data-v-6bee1efd><span class="top" data-v-6bee1efd></span><span class="middle" data-v-6bee1efd></span><span class="bottom" data-v-6bee1efd></span></span></button></div></div></div></div><div class="divider" data-v-9fd4d1dd><div class="divider-line" data-v-9fd4d1dd></div></div></div><!----></header><div class="VPLocalNav has-sidebar empty" data-v-d8b57b2d data-v-2488c25a><div class="container" data-v-2488c25a><button class="menu" aria-expanded="false" aria-controls="VPSidebarNav" data-v-2488c25a><span class="vpi-align-left menu-icon" data-v-2488c25a></span><span class="menu-text" data-v-2488c25a>Menu</span></button><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-v-2488c25a data-v-883964e0><button data-v-883964e0>Return to top</button><!----></div></div></div><aside class="VPSidebar" data-v-d8b57b2d data-v-42c4c606><div class="curtain" data-v-42c4c606></div><nav class="nav" id="VPSidebarNav" aria-labelledby="sidebar-aria-label" tabindex="-1" data-v-42c4c606><span class="visually-hidden" id="sidebar-aria-label" data-v-42c4c606> Sidebar Navigation </span><!--[--><!--]--><!--[--><div class="no-transition group" data-v-51288d80><section class="VPSidebarItem level-0" data-v-51288d80 data-v-edd2eed8><div class="item" role="button" tabindex="0" data-v-edd2eed8><div class="indicator" data-v-edd2eed8></div><h2 class="text" data-v-edd2eed8>博客</h2><!----></div><div class="items" data-v-edd2eed8><!--[--><div class="VPSidebarItem level-1 is-link" data-v-edd2eed8 data-v-edd2eed8><div class="item" data-v-edd2eed8><div class="indicator" data-v-edd2eed8></div><a class="VPLink link link" href="/aboutme.html" data-v-edd2eed8><!--[--><p class="text" data-v-edd2eed8>About Me</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><!--]--><!--[--><!--]--></nav></aside><div class="VPContent has-sidebar" id="VPContent" data-v-d8b57b2d data-v-9a6c75ad><div class="VPDoc has-sidebar has-aside" data-v-9a6c75ad data-v-e6f2a212><!--[--><!--]--><div class="container" data-v-e6f2a212><div class="aside" data-v-e6f2a212><div class="aside-curtain" data-v-e6f2a212></div><div class="aside-container" data-v-e6f2a212><div class="aside-content" data-v-e6f2a212><div class="VPDocAside" data-v-e6f2a212 data-v-cb998dce><!--[--><!--]--><!--[--><!--]--><nav aria-labelledby="doc-outline-aria-label" class="VPDocAsideOutline" data-v-cb998dce data-v-f610f197><div class="content" data-v-f610f197><div class="outline-marker" data-v-f610f197></div><div aria-level="2" class="outline-title" id="doc-outline-aria-label" role="heading" data-v-f610f197>文章目录</div><ul class="VPDocOutlineItem root" data-v-f610f197 data-v-53c99d69><!--[--><!--]--></ul></div></nav><!--[--><!--]--><div class="spacer" data-v-cb998dce></div><!--[--><!--]--><!----><!--[--><!--]--><!--[--><!--]--></div></div></div></div><div class="content" data-v-e6f2a212><div class="content-container" data-v-e6f2a212><!--[--><!--]--><main class="main" data-v-e6f2a212><div style="position:relative;" class="vp-doc _blog_vercel+vitepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA" data-v-e6f2a212><div><h2 id="node-js-环境准备" tabindex="-1">Node.js 环境准备 <a class="header-anchor" href="#node-js-环境准备" aria-label="Permalink to &quot;Node.js 环境准备&quot;">​</a></h2><h3 id="安装volta" tabindex="-1">安装Volta <a class="header-anchor" href="#安装volta" aria-label="Permalink to &quot;安装Volta&quot;">​</a></h3><p>本文使用Volta进行版本管理</p><h4 id="unix-安装​" tabindex="-1">Unix 安装<a href="https://volta.jikun.dev/guide/getting-start.html#unix" target="_blank" rel="noreferrer">​</a> <a class="header-anchor" href="#unix-安装​" aria-label="Permalink to &quot;Unix 安装[​](https://volta.jikun.dev/guide/getting-start.html#unix)&quot;">​</a></h4><p>在大多数 Unix 系统(包括 macOS)上，您可以使用一个命令安装 Volta:</p><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>curl https://get.volta.sh | bash</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br></div></div><h4 id="windows安装" tabindex="-1">windows安装 <a class="header-anchor" href="#windows安装" aria-label="Permalink to &quot;windows安装&quot;">​</a></h4><p>点此跳转<a href="https://volta.jikun.dev/guide/getting-start.html#unix" target="_blank" rel="noreferrer">​</a></p><h3 id="安装node-js" tabindex="-1">安装Node.js <a class="header-anchor" href="#安装node-js" aria-label="Permalink to &quot;安装Node.js&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>volta install node@18.17.1</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br></div></div><hr><h2 id="安装vitepress" tabindex="-1">安装Vitepress <a class="header-anchor" href="#安装vitepress" aria-label="Permalink to &quot;安装Vitepress&quot;">​</a></h2><p>windows下全程vscode搭建</p><h3 id="创建工作目录" tabindex="-1">创建工作目录 <a class="header-anchor" href="#创建工作目录" aria-label="Permalink to &quot;创建工作目录&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>mkdir blog</span></span>
+<span class="line"><span>cd .\blog\</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="安装依赖" tabindex="-1">安装依赖 <a class="header-anchor" href="#安装依赖" aria-label="Permalink to &quot;安装依赖&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>npm install -D vitepress</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="vitepress-附带一个命令行设置向导" tabindex="-1">VitePress 附带一个命令行设置向导 <a class="header-anchor" href="#vitepress-附带一个命令行设置向导" aria-label="Permalink to &quot;VitePress 附带一个命令行设置向导&quot;">​</a></h3><p>可帮助您构建基本项目。安装后，通过运行以下命令启动向导</p><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>npx vitepress init</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br></div></div><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>┌   Welcome to VitePress! </span></span>
+<span class="line"><span>│</span></span>
+<span class="line"><span>◇  Where should VitePress initialize the config?</span></span>
+<span class="line"><span>│  ./</span></span>
+<span class="line"><span>│</span></span>
+<span class="line"><span>◇  Site title:</span></span>
+<span class="line"><span>│  Title</span></span>
+<span class="line"><span>│</span></span>
+<span class="line"><span>◇  Site description:</span></span>
+<span class="line"><span>│  Description</span></span>
+<span class="line"><span>│</span></span>
+<span class="line"><span>◇  Theme:</span></span>
+<span class="line"><span>│  Default Theme</span></span>
+<span class="line"><span>│</span></span>
+<span class="line"><span>◇  Use TypeScript for config and theme files?</span></span>
+<span class="line"><span>│  Yes</span></span>
+<span class="line"><span>│</span></span>
+<span class="line"><span>◇  Add VitePress npm scripts to package.json?</span></span>
+<span class="line"><span>│  Yes</span></span>
+<span class="line"><span>│</span></span>
+<span class="line"><span>└  Done! Now run npm run docs:dev and start writing.</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><h3 id="目录结构" tabindex="-1">目录结构 <a class="header-anchor" href="#目录结构" aria-label="Permalink to &quot;目录结构&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>.</span></span>
+<span class="line"><span>│─ .vitepress</span></span>
+<span class="line"><span>│  ├─ components            //这个目录自建，用于存放组件</span></span>
+<span class="line"><span>│     └─ gitalk.vue         //这个文件自建，用于引入gitalk</span></span>
+<span class="line"><span>│  ├─ theme                 //这个目录自建，用于存放主题相关文件</span></span>
+<span class="line"><span>│  │    ├─ custom.css       //这个文件自建，用于存放自定义样式</span></span>
+<span class="line"><span>│  │    └─ index.ts         //这个文件自建，用于引入主题和组件</span></span>
+<span class="line"><span>│  └─ config.mts</span></span>
+<span class="line"><span>├─ blog                     //这个目录自建，用于存放博客内容</span></span>
+<span class="line"><span>├─ public                   //这个目录自建，用来存放公共资源等，引用的时候路径不需要包含public</span></span>
+<span class="line"><span>│  ├─ logo.ico              //浏览器图标，自己找图</span></span>
+<span class="line"><span>│  └─ logo.png              //首页右侧图片和logo，自己找图</span></span>
+<span class="line"><span>├─ api-examples.md</span></span>
+<span class="line"><span>├─ markdown-examples.md</span></span>
+<span class="line"><span>└─ index.md</span></span>
+<span class="line"><span>└─ package.json</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h3 id="package-json-自带的json文件" tabindex="-1">package.json 自带的json文件 <a class="header-anchor" href="#package-json-自带的json文件" aria-label="Permalink to &quot;package.json 自带的json文件&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>{</span></span>
+<span class="line"><span>  ···</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  &quot;scripts&quot;: {</span></span>
+<span class="line"><span>    &quot;docs:dev&quot;: &quot;vitepress dev&quot;,</span></span>
+<span class="line"><span>    &quot;docs:build&quot;: &quot;vitepress build&quot;,</span></span>
+<span class="line"><span>    &quot;docs:preview&quot;: &quot;vitepress preview&quot;</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>  ···</span></span>
+<span class="line"><span>}</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h3 id="调试命令" tabindex="-1">调试命令 <a class="header-anchor" href="#调试命令" aria-label="Permalink to &quot;调试命令&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>npm run docs:dev</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="构建命令" tabindex="-1">构建命令 <a class="header-anchor" href="#构建命令" aria-label="Permalink to &quot;构建命令&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>npm build docs:dev</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="使用volta固定node-js版本" tabindex="-1">使用Volta固定Node.js版本 <a class="header-anchor" href="#使用volta固定node-js版本" aria-label="Permalink to &quot;使用Volta固定Node.js版本&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>volta pin node@18.17.1</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="执行后package-json会新增内容" tabindex="-1">执行后package.json会新增内容 <a class="header-anchor" href="#执行后package-json会新增内容" aria-label="Permalink to &quot;执行后package.json会新增内容&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>&quot;volta&quot;: {</span></span>
+<span class="line"><span>    &quot;node&quot;: &quot;18.17.1&quot;</span></span>
+<span class="line"><span>  }</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>新增dependency也会在此文件中新增对应内容</p><hr><h2 id="配置" tabindex="-1">配置 <a class="header-anchor" href="#配置" aria-label="Permalink to &quot;配置&quot;">​</a></h2><h3 id="首页" tabindex="-1">首页 <a class="header-anchor" href="#首页" aria-label="Permalink to &quot;首页&quot;">​</a></h3><ul><li><code>./index.md</code></li></ul><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>---</span></span>
+<span class="line"><span># https://vitepress.dev/reference/default-theme-home-page</span></span>
+<span class="line"><span>layout: home</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>hero:</span></span>
+<span class="line"><span>  # 大标题</span></span>
+<span class="line"><span>  name: &quot;Soap&quot;</span></span>
+<span class="line"><span>  # 描述</span></span>
+<span class="line"><span>  text: &quot;Soap&#39;s blog&quot;</span></span>
+<span class="line"><span>  tagline: 意大利面拌42号混凝土</span></span>
+<span class="line"><span>  image:</span></span>
+<span class="line"><span>        src: /logo.png</span></span>
+<span class="line"><span>        alt: Soapie</span></span>
+<span class="line"><span>  actions:</span></span>
+<span class="line"><span>    - theme: brand</span></span>
+<span class="line"><span>      text: 👉  Blog  👈</span></span>
+<span class="line"><span>      link: /aboutme</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>features:</span></span>
+<span class="line"><span>  - title: E-mail</span></span>
+<span class="line"><span>    details: 发邮件给👴</span></span>
+<span class="line"><span>    link: mailto:gehoujun@outlook.com</span></span>
+<span class="line"><span>  - title: Telegram</span></span>
+<span class="line"><span>    details: 丢小飞机给👴</span></span>
+<span class="line"><span>    link: https://t.me/soapshooter</span></span>
+<span class="line"><span> # - title: A</span></span>
+<span class="line"><span> #   details: xxx</span></span>
+<span class="line"><span> #   link: https://baidu.com</span></span>
+<span class="line"><span>---</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br></div></div><p>![[Pasted image 20240724095636.png]]</p><hr><h2 id="主题" tabindex="-1">主题 <a class="header-anchor" href="#主题" aria-label="Permalink to &quot;主题&quot;">​</a></h2><ul><li><code>.vitepress/theme/index.ts</code></li></ul><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>import DefaultTheme from &#39;vitepress/theme&#39;;</span></span>
+<span class="line"><span>import &#39;./custom.css&#39;;</span></span>
+<span class="line"><span>// @ts-ignore</span></span>
+<span class="line"><span>import comment from &quot;../components/gitalk.vue&quot;;</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>export default {</span></span>
+<span class="line"><span>  ...DefaultTheme,</span></span>
+<span class="line"><span>  enhanceApp(ctx) {</span></span>
+<span class="line"><span>    DefaultTheme.enhanceApp(ctx)</span></span>
+<span class="line"><span>    ctx.app.component(&quot;gitalk&quot;, comment)</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>};</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><ul><li>编辑.vitepress/theme/custom.css 内容过多以下不引用</li></ul><h3 id="核心配置" tabindex="-1">核心配置 <a class="header-anchor" href="#核心配置" aria-label="Permalink to &quot;核心配置&quot;">​</a></h3><ul><li>编辑<code>./docs/.vitepress/config.mts</code></li></ul><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>import { defineConfig } from &#39;vitepress&#39;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>export default defineConfig({</span></span>
+<span class="line"><span>  // 标题（浏览器后缀）</span></span>
+<span class="line"><span>  title: &quot;Soap&quot;,</span></span>
+<span class="line"><span>  // 描述</span></span>
+<span class="line"><span>  description: &quot;Soap&#39;s blog&quot;,</span></span>
+<span class="line"><span>  // 语言</span></span>
+<span class="line"><span>  lang: &#39;zh-CN&#39;,</span></span>
+<span class="line"><span>  // 根目录</span></span>
+<span class="line"><span>  base: &#39;/&#39;,</span></span>
+<span class="line"><span>  // 文档最后更新时间展示</span></span>
+<span class="line"><span>  lastUpdated: true,</span></span>
+<span class="line"><span>  // 去除浏览器链接中的.html后缀  //此项特别注意，本文部署在vercel上因此必须是false，或者默认</span></span>
+<span class="line"><span>  //cleanUrls: false,</span></span>
+<span class="line"><span>  // markdown显示行数</span></span>
+<span class="line"><span>  markdown: {</span></span>
+<span class="line"><span>    lineNumbers: true,</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>  // head设置</span></span>
+<span class="line"><span>  head: [</span></span>
+<span class="line"><span>    // 浏览器中图标</span></span>
+<span class="line"><span>    [&quot;link&quot;, {rel: &quot;icon&quot;, href: &quot;/logo.ico&quot;}],</span></span>
+<span class="line"><span>    // 添加百度统计代码</span></span>
+<span class="line"><span>    [&#39;script&#39;, {},</span></span>
+<span class="line"><span>    `</span></span>
+<span class="line"><span>      var _hmt = _hmt || [];</span></span>
+<span class="line"><span>      (function() {</span></span>
+<span class="line"><span>        var hm = document.createElement(&quot;script&quot;);</span></span>
+<span class="line"><span>        hm.src = &quot;https://hm.baidu.com/hm.js?b6d40898f39099fd8bacd853f395cf6a&quot;;</span></span>
+<span class="line"><span>        var s = document.getElementsByTagName(&quot;script&quot;)[0];</span></span>
+<span class="line"><span>        s.parentNode.insertBefore(hm, s);</span></span>
+<span class="line"><span>      })();</span></span>
+<span class="line"><span>    `</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>  ],</span></span>
+<span class="line"><span>  // 主题设置</span></span>
+<span class="line"><span>  themeConfig: {</span></span>
+<span class="line"><span>    // 左上角logo</span></span>
+<span class="line"><span>    logo: &#39;/logo.png&#39;,</span></span>
+<span class="line"><span>    // 首页右上角导航栏</span></span>
+<span class="line"><span>    nav: [</span></span>
+<span class="line"><span>      { text: &#39;Home&#39;, link: &#39;/&#39; },</span></span>
+<span class="line"><span>      { text: &#39;Blog&#39;, link: &#39;/aboutme&#39; }</span></span>
+<span class="line"><span>    ],</span></span>
+<span class="line"><span>    // 文章左侧导航栏</span></span>
+<span class="line"><span>    sidebar: [</span></span>
+<span class="line"><span>      {</span></span>
+<span class="line"><span>        text: &#39;博客&#39;,</span></span>
+<span class="line"><span>        items: [</span></span>
+<span class="line"><span>          { text: &#39;About Me&#39;, link: &#39;/aboutme&#39; },</span></span>
+<span class="line"><span>          //{ text: &#39;Test&#39;, link: &#39;/blog/Test&#39; }</span></span>
+<span class="line"><span>        ]</span></span>
+<span class="line"><span>      }</span></span>
+<span class="line"><span>    ],</span></span>
+<span class="line"><span>    // 文章底部导航栏的自定义配置，默认是英语</span></span>
+<span class="line"><span>    docFooter: {</span></span>
+<span class="line"><span>      prev: &#39;Prev&#39;,</span></span>
+<span class="line"><span>      next: &#39;Next&#39;,</span></span>
+<span class="line"><span>    },</span></span>
+<span class="line"><span>    // 文章右侧目录展示级别和标题</span></span>
+<span class="line"><span>    outline: {</span></span>
+<span class="line"><span>      level: [2, 6],</span></span>
+<span class="line"><span>      label: &#39;文章目录&#39;</span></span>
+<span class="line"><span>    },</span></span>
+<span class="line"><span>    // 文章更新时间的前缀文本</span></span>
+<span class="line"><span>    lastUpdatedText: &#39;最后更新时间&#39;,</span></span>
+<span class="line"><span>    // 开启本地搜索（左上角）</span></span>
+<span class="line"><span>    search: {</span></span>
+<span class="line"><span>      provider: &#39;local&#39;,</span></span>
+<span class="line"><span>    },</span></span>
+<span class="line"><span>    // 右上角Github链接</span></span>
+<span class="line"><span>    socialLinks: [</span></span>
+<span class="line"><span>      { icon: &#39;github&#39;, link: &#39;https://github.com/mqzpmwxo&#39; }</span></span>
+<span class="line"><span>    ],</span></span>
+<span class="line"><span>    // 页脚</span></span>
+<span class="line"><span>    footer: {</span></span>
+<span class="line"><span>      copyright: &#39;Copyright © 2024-present Soap&#39;,</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>  }</span></span>
+<span class="line"><span>})</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br></div></div><hr><h2 id="部署至vercel" tabindex="-1">部署至vercel <a class="header-anchor" href="#部署至vercel" aria-label="Permalink to &quot;部署至vercel&quot;">​</a></h2><h3 id="push到github" tabindex="-1">push到github <a class="header-anchor" href="#push到github" aria-label="Permalink to &quot;push到github&quot;">​</a></h3><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>npm build docs:dev</span></span>
+<span class="line"><span>git add .</span></span>
+<span class="line"><span>git commit -m &quot;init commit&quot;</span></span>
+<span class="line"><span>git push</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="注册vercel-略" tabindex="-1">注册vercel，略 <a class="header-anchor" href="#注册vercel-略" aria-label="Permalink to &quot;注册vercel，略&quot;">​</a></h3><h3 id="新建项目" tabindex="-1">新建项目 <a class="header-anchor" href="#新建项目" aria-label="Permalink to &quot;新建项目&quot;">​</a></h3><p>![[Pasted image 20240724100608.png]]</p><h3 id="选择自己的项目-import" tabindex="-1">选择自己的项目，import <a class="header-anchor" href="#选择自己的项目-import" aria-label="Permalink to &quot;选择自己的项目，import&quot;">​</a></h3><p>![[Pasted image 20240724100640.png]]</p><ul><li>根据自己的需求填写</li><li>注意:此处需要写.vitepress/dist ![[Pasted image 20240724100829.png]]</li></ul><h3 id="域名-提前准备" tabindex="-1">域名，提前准备 <a class="header-anchor" href="#域名-提前准备" aria-label="Permalink to &quot;域名，提前准备&quot;">​</a></h3><ul><li>进入创建好的项目，settings -- domains --edit</li><li>完成，访问</li></ul><hr><h2 id="其他设置" tabindex="-1">其他设置 <a class="header-anchor" href="#其他设置" aria-label="Permalink to &quot;其他设置&quot;">​</a></h2><h3 id="引入gitalk" tabindex="-1">引入gitalk <a class="header-anchor" href="#引入gitalk" aria-label="Permalink to &quot;引入gitalk&quot;">​</a></h3><h4 id="注册应用" tabindex="-1">注册应用 <a class="header-anchor" href="#注册应用" aria-label="Permalink to &quot;注册应用&quot;">​</a></h4><ul><li><code>Github</code></li><li>进入个人设置<code>Settings</code></li><li>最下方<code>Developer settings</code></li><li><code>OAuth Apps</code></li><li><code>New OAuth App</code></li><li>此刻获取到<code>clientID</code>和<code>clientSecret</code></li></ul><h4 id="安装依赖-1" tabindex="-1">安装依赖 <a class="header-anchor" href="#安装依赖-1" aria-label="Permalink to &quot;安装依赖&quot;">​</a></h4><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>npm install md5 gitalk</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br></div></div><h4 id="编辑配置" tabindex="-1">编辑配置 <a class="header-anchor" href="#编辑配置" aria-label="Permalink to &quot;编辑配置&quot;">​</a></h4><ul><li>新建目录 <code>.vitepress/components</code></li><li>编辑<code>.vitepress/components/gitalk.vue</code></li></ul><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>&lt;template&gt;</span></span>
+<span class="line"><span>    &lt;div class=&quot;gitalk-container&quot;&gt;</span></span>
+<span class="line"><span>      &lt;div id=&quot;gitalk-container&quot;&gt;&lt;/div&gt;</span></span>
+<span class="line"><span>    &lt;/div&gt;</span></span>
+<span class="line"><span>&lt;/template&gt;</span></span>
+<span class="line"><span>&lt;script&gt;</span></span>
+<span class="line"><span>import md5 from &quot;md5&quot;</span></span>
+<span class="line"><span>import Gitalk from &quot;gitalk&quot;</span></span>
+<span class="line"><span>import &quot;gitalk/dist/gitalk.css&quot;</span></span>
+<span class="line"><span>export default {</span></span>
+<span class="line"><span>  name: &quot;gitalk&quot;,</span></span>
+<span class="line"><span>  data() {</span></span>
+<span class="line"><span>    return {}</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>  mounted() {</span></span>
+<span class="line"><span>    const commentConfig = {</span></span>
+<span class="line"><span>      clientID: &quot;clientID&quot;,</span></span>
+<span class="line"><span>      clientSecret: &quot;clientSecret&quot;,</span></span>
+<span class="line"><span>      repo: &quot;reponame&quot;,</span></span>
+<span class="line"><span>      owner: &quot;  &quot;,</span></span>
+<span class="line"><span>      admin: [&quot;  &quot;],</span></span>
+<span class="line"><span>      id: md5(location.pathname),</span></span>
+<span class="line"><span>      distractionFreeMode: false,</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>    const gitalk = new Gitalk(commentConfig)</span></span>
+<span class="line"><span>    gitalk.render(&quot;gitalk-container&quot;)</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span>&lt;/script&gt;</span></span>
+<span class="line"><span>&lt;style&gt;</span></span>
+<span class="line"><span>.gt-container .gt-header-textarea {</span></span>
+<span class="line"><span>  color: #000;</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span>&lt;/style&gt;</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br></div></div><ul><li>编辑 <code>.vitepress/theme/index.ts</code></li></ul><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>import comment from &quot;../components/gitalk.vue&quot;;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>export default {</span></span>
+<span class="line"><span>  ...DefaultTheme,</span></span>
+<span class="line"><span>  enhanceApp(ctx) {</span></span>
+<span class="line"><span>    DefaultTheme.enhanceApp(ctx)</span></span>
+<span class="line"><span>    //新增内容</span></span>
+<span class="line"><span>    ctx.app.component(&quot;gitalk&quot;, comment)</span></span>
+<span class="line"><span>  }</span></span>
+<span class="line"><span>···</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h4 id="gitalk使用" tabindex="-1">gitalk使用 <a class="header-anchor" href="#gitalk使用" aria-label="Permalink to &quot;gitalk使用&quot;">​</a></h4><p>在需要的Markdown里使用<code>&lt;gitalk/&gt;</code>开启评论</p><h3 id="接入百度统计" tabindex="-1">接入百度统计 <a class="header-anchor" href="#接入百度统计" aria-label="Permalink to &quot;接入百度统计&quot;">​</a></h3><ul><li>官网申请，获取接入代码</li><li>编辑<code>./docs/.vitepress/config.mts</code></li></ul><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>// head设置</span></span>
+<span class="line"><span>  head: [</span></span>
+<span class="line"><span>    // 添加百度统计代码</span></span>
+<span class="line"><span>    [&#39;script&#39;, {},</span></span>
+<span class="line"><span>    `</span></span>
+<span class="line"><span>      var _hmt = _hmt || [];</span></span>
+<span class="line"><span>      (function() {</span></span>
+<span class="line"><span>        var hm = document.createElement(&quot;script&quot;);</span></span>
+<span class="line"><span>        hm.src = &quot;https://hm.baidu.com/hm.js?自己申请&quot;;</span></span>
+<span class="line"><span>        var s = document.getElementsByTagName(&quot;script&quot;)[0]; </span></span>
+<span class="line"><span>        s.parentNode.insertBefore(hm, s);</span></span>
+<span class="line"><span>      })();</span></span>
+<span class="line"><span>    `</span></span>
+<span class="line"><span>    ]</span></span>
+<span class="line"><span>  ],</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h3 id="接入vercel-speed-insights" tabindex="-1">接入vercel Speed Insights <a class="header-anchor" href="#接入vercel-speed-insights" aria-label="Permalink to &quot;接入vercel Speed Insights&quot;">​</a></h3><ul><li>点击Speed Insights获取接入代码 ![[Pasted image 20240724102748.png]]</li></ul><h4 id="安装speed-insights" tabindex="-1">安装speed-insights <a class="header-anchor" href="#安装speed-insights" aria-label="Permalink to &quot;安装speed-insights&quot;">​</a></h4><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>npm install @vercel/speed-insights</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br></div></div><ul><li>编辑 <code>.vitepress/theme/index.ts</code></li></ul><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>import { injectSpeedInsights } from &#39;@vercel/speed-insights&#39;;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>export default {</span></span>
+<span class="line"><span>  ...DefaultTheme,</span></span>
+<span class="line"><span>  enhanceApp(ctx) {</span></span>
+<span class="line"><span>    DefaultTheme.enhanceApp(ctx)</span></span>
+<span class="line"><span>    ctx.app.component(&quot;gitalk&quot;, comment)</span></span>
+<span class="line"><span>    //添加如下内容</span></span>
+<span class="line"><span>    injectSpeedInsights();</span></span>
+<span class="line"><span>  },</span></span>
+<span class="line"><span>};</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h4 id="效果如下" tabindex="-1">效果如下 <a class="header-anchor" href="#效果如下" aria-label="Permalink to &quot;效果如下&quot;">​</a></h4><p>![[Pasted image 20240724103048.png]]</p></div></div></main><footer class="VPDocFooter" data-v-e6f2a212 data-v-1bcd8184><!--[--><!--]--><!----><nav class="prev-next" aria-labelledby="doc-footer-aria-label" data-v-1bcd8184><span class="visually-hidden" id="doc-footer-aria-label" data-v-1bcd8184>Pager</span><div class="pager" data-v-1bcd8184><!----></div><div class="pager" data-v-1bcd8184><a class="VPLink link pager-link next" href="/aboutme.html" data-v-1bcd8184><!--[--><span class="desc" data-v-1bcd8184>Next</span><span class="title" data-v-1bcd8184>About Me</span><!--]--></a></div></nav></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><footer class="VPFooter has-sidebar" data-v-d8b57b2d data-v-566314d4><div class="container" data-v-566314d4><!----><p class="copyright" data-v-566314d4>Copyright © 2024-present Soap</p></div></footer><!--[--><!--]--></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"aboutme.md\":\"CdjFYIYS\",\"blog_vercel_vitepress博客搭建.md\":\"D55O92hh\",\"index.md\":\"DJHyXXm6\",\"readme.md\":\"ufu_t9an\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"zh-CN\",\"dir\":\"ltr\",\"title\":\"Soap\",\"description\":\"Soap's blog\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"logo\":\"/logo.png\",\"nav\":[{\"text\":\"Home\",\"link\":\"/\"},{\"text\":\"Blog\",\"link\":\"/aboutme\"}],\"sidebar\":[{\"text\":\"博客\",\"items\":[{\"text\":\"About Me\",\"link\":\"/aboutme\"}]}],\"docFooter\":{\"prev\":\"Prev\",\"next\":\"Next\"},\"outline\":{\"level\":[2,6],\"label\":\"文章目录\"},\"lastUpdatedText\":\"最后更新时间\",\"search\":{\"provider\":\"local\"},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/mqzpmwxo\"}],\"footer\":{\"copyright\":\"Copyright © 2024-present Soap\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+    
+  </body>
+</html>
