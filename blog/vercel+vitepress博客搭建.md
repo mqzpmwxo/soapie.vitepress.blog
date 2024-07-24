@@ -116,7 +116,7 @@ npm run docs:dev
 
 ### 构建命令
 ```
-npm build docs:dev
+npm run docs:build
 ```
 
 ### 使用Volta固定Node.js版本
@@ -171,7 +171,8 @@ features:
  #   link: https://baidu.com
 ---
 ```
-![[Pasted image 20240724095636.png]]
+
+<img src="/blog/attachments/20240724095636.png" />
 
 ---
 ## 主题
@@ -299,14 +300,14 @@ git push
 ### 注册vercel，略
 
 ### 新建项目
-![[Pasted image 20240724100608.png]]
+<img src="/blog/attachments/20240724100608.png" />
 
 ### 选择自己的项目，import
-![[Pasted image 20240724100640.png]]
+<img src="/blog/attachments/20240724100640.png" />
 
 - 根据自己的需求填写
 - 注意:此处需要写.vitepress/dist
-![[Pasted image 20240724100829.png]]
+<img src="/blog/attachments/20240724100829.png" />
 
 ### 域名，提前准备
 - 进入创建好的项目，settings -- domains --edit
@@ -415,7 +416,7 @@ export default {
 
 ### 接入vercel Speed Insights
 - 点击Speed Insights获取接入代码
-![[Pasted image 20240724102748.png]]
+<img src="/blog/attachments/20240724102748.png" />
 
 #### 安装speed-insights
 ```
@@ -438,4 +439,4 @@ export default {
 ```
 
 #### 效果如下
-![[Pasted image 20240724103048.png]]
+<img src="/blog/attachments/20240724103048.png" />
