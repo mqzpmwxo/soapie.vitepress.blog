@@ -12,7 +12,7 @@ export default defineConfig({
   // 文档最后更新时间展示
   lastUpdated: true,
   //去除浏览器链接中的.html后缀
-  cleanUrls: true,
+  cleanUrls: false,
   // markdown显示行数
   markdown: {
     lineNumbers: true,
@@ -53,7 +53,7 @@ export default defineConfig({
             text:'2024',
             items:[
               { text: 'About Me', link: '/aboutme' },
-              { text: 'vercel+vitepress博客搭建', link: '/blog/vercel+vitepress博客搭建' }
+              { text: 'vercel+vitepress博客搭建', link: '/blog/vercel+vitepress-build-blog' }
             ]
           },
         ]
