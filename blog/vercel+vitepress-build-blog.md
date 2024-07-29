@@ -14,7 +14,7 @@ curl https://get.volta.sh | bash
 
 #### windows安装
 
-点此跳转[​](https://volta.jikun.dev/guide/getting-start.html#unix)
+[点此跳转](https://volta.jikun.dev/guide/getting-start.html#unix)
 
 ### 安装Node.js
 
