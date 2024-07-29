@@ -53,7 +53,8 @@ export default defineConfig({
             text:'2024',
             items:[
               { text: 'About Me', link: '/aboutme' },
-              { text: 'vercel+vitepress博客搭建', link: '/blog/vercel+vitepress-build-blog' }
+              { text: 'vercel+vitepress博客搭建', link: '/blog/vercel+vitepress-build-blog' },
+              { text: 'DS220搭建Immich', link: '/blog/DS220DeployImmich' }
             ]
           },
         ]
