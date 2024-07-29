@@ -46,15 +46,15 @@ export default defineConfig({
     ],
     // 文章左侧导航栏
     sidebar: [
-      {
+      {text:'关于作者',link:'/aboutme'},
+      { 
         text: '博客',
         items: [
-          {
+          {     
             text:'2024',
             items:[
-              { text: 'About Me', link: '/aboutme' },
-              { text: 'vercel+vitepress博客搭建', link: '/blog/vercel+vitepress-build-blog' },
-              { text: 'DS220搭建Immich', link: '/blog/DS220DeployImmich' }
+              { text: 'DS220搭建Immich', link: '/blog/DS220DeployImmich' },
+              { text: 'vercel+vitepress博客搭建', link: '/blog/vercel+vitepress-build-blog' }
             ]
           },
         ]
