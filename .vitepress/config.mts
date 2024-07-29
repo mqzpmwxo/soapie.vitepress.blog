@@ -46,7 +46,12 @@ export default defineConfig({
     ],
     // 文章左侧导航栏
     sidebar: [
-      {text:'关于作者',link:'/aboutme'},
+    {
+      text:'关于作者',
+      items: [
+        {text:'About Me',link:'/aboutme'}
+      ]
+    },
       { 
         text: '博客',
         items: [
