@@ -23,26 +23,30 @@ wget -O .env https://github.com/immich-app/immich/releases/latest/download/examp
 官方docker-compose.yml/.env可直接使用，也可根据自身需要修改。
 以下步骤无需修改docker-compose.yml/.env
 
-# 使用Container Manager启动Immich
+## 使用Container Manager启动Immich
 
-
-## 新增项目
+### 新增项目
 自定项目名称，选择immich目录（下载docker-compose.yml的目录），使用现有docker-compose.yml新建项目，
 <img src="/blog/assets/20240328105019.png" />
-## 自动识别yml文件
+
+### 自动识别yml文件
 <img src="/blog/assets/20240328104944.png" />
 下一步
-## 启动项目
+
+### 启动项目
 <img src="/blog/assets/20240328105244.png" />
+
 项目启动中
+
 <img src="/blog/assets/20240328105439.png" />
 等待时长视自身网络情况而定
 
 ---
 
-# 访问Immich
+## 访问Immich
 - ip:port
+<img src="/blog/assets/20240328111334.png" />
 ![[Pasted image 20240328111334.png]]
 - 注册
-![[Pasted image 20240328111417.png]]
+<img src="/blog/assets/20240328111417.png" />
 完成后登录，玩儿去吧
