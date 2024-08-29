@@ -58,7 +58,8 @@ export default defineConfig({
           {     
             text:'2024',
             items:[
-              { text: 'C1增驾D', link: '/blog/Driver license' },
+              { text: '关于在咸鱼下单麦乐送被道德绑架', link: '/blog/xianyu-moral-kidnap' },
+              { text: 'C1增驾D', link: '/blog/Driver-license' },
               { text: 'DS220搭建Immich', link: '/blog/DS220DeployImmich' },
               { text: 'vercel+vitepress博客搭建', link: '/blog/vercel+vitepress-build-blog' }
             ]
