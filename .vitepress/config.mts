@@ -58,6 +58,7 @@ export default defineConfig({
           {     
             text:'2024',
             items:[
+              { text: '减脂', link: '/blog/Lose-fat' },
               { text: '关于在咸鱼下单麦乐送被道德绑架', link: '/blog/xianyu-moral-kidnap' },
               { text: 'C1增驾D', link: '/blog/Driver-license' },
               { text: 'DS220搭建Immich', link: '/blog/DS220DeployImmich' },
